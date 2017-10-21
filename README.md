@@ -57,7 +57,7 @@ iOS developer information.
   * ios/                          // ios build assets used by build.py.
     * assetcatalog.plist          // needed for compiling icon resources.
     * Contents.json               // needed for compiling icon resources.
-    * Default-568h@2x.png         // default app icon.
+    * Default-568h@2x.png         // default app background.
     * dev.mobileprovision         ** your developer provisioning profile
     * dist.mobileprovision        ** your distribution provisioning profile
     * entitlements-dist.plist     ** update with your application and developer info.
