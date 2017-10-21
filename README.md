@@ -52,7 +52,7 @@ iOS builds require provisioning profiles downloaded from an iOS developer accoun
 and iOS developer signing certificates. Update ``**`` files need to match your
 iOS developer information.
 
-``
+```
 * admin/
   * ios/                          // ios build assets used by build.py.
     * assetcatalog.plist          // needed for compiling icon resources.
@@ -84,4 +84,4 @@ iOS developer information.
   * ball.vsh                      // ball model vertex shader.
   bios.go                         // go code.
   README.md
-``
+```
