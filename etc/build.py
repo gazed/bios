@@ -70,7 +70,6 @@ def buildIos():
     subprocess.call(shlex.split('cp ios/Contents.json target/ios/Images.xcassets/AppIcon.appiconset/'))
     subprocess.call(shlex.split('cp ios/icon_120x120.png target/ios/Images.xcassets/AppIcon.appiconset/'))
     subprocess.call(shlex.split('cp ios/icon_167x167.png target/ios/Images.xcassets/AppIcon.appiconset/'))
-    subprocess.call(shlex.split('cp ios/icon_76x76.png target/ios/Images.xcassets/AppIcon.appiconset/'))
     subprocess.call(shlex.split('cp ios/icon_76x76x2.png target/ios/Images.xcassets/AppIcon.appiconset/'))
     subprocess.call(shlex.split('cp ios/icon_1024x1024.png target/ios/Images.xcassets/AppIcon.appiconset/'))
     subprocess.call(shlex.split('xcrun actool --output-format human-readable-text --notices --warnings --output-partial-info-plist ios/assetcatalog.plist --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --platform iphoneos --product-type com.apple.product-type.application --compile target/ios/bios.app target/ios/Images.xcassets'))

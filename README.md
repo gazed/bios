@@ -53,7 +53,7 @@ and iOS developer signing certificates. Update ``**`` files need to match your
 iOS developer information.
 
 ```
-* admin/
+* etc/
   * ios/                          // ios build assets used by build.py.
     * assetcatalog.plist          // needed for compiling icon resources.
     * Contents.json               // needed for compiling icon resources.
@@ -65,7 +65,6 @@ iOS developer information.
     * icon_1024x1024.png          // mandatory icon.
     * icon_120x120.png            //   "        "
     * icon_167x167.png            //   "        "
-    * icon_76x76.png              //   "        "
     * icon_76x76x2.png            //   "        "
     * Info.plist                  ** update with your application info.
   * target/                       // build output directory generated from build.py.
